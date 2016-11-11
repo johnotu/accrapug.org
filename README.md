@@ -1,4 +1,11 @@
 # accrapug.org
 
 ## Setting up
-`pip install -r requirements.txt`
+```
+$ virtualenv venv
+$ . venv/bin/activate
+$ pip install -r requirements.txt
+$ python manage.py migrate
+$ python manage.py runserver
+```
+
